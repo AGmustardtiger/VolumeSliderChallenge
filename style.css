@@ -15,7 +15,7 @@ body {
 }
 
 .slider {
-    appearance: none;
+    -webkit-appearance: none;
     width: 17px;
     height: 500px;
     background: linear-gradient(90deg, rgb(214, 214, 214) 60%, rgb(214, 214, 214) 60%);
