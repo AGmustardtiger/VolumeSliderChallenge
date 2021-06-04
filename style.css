@@ -1,0 +1,53 @@
+body {
+    background: rgb(100, 100, 100);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.slideContainer {
+    width: 75%;
+    margin-top: 200px;
+}
+
+.slider {
+    appearance: none;
+    width: 17px;
+    height: 500px;
+    background: linear-gradient(90deg, rgb(214, 214, 214) 60%, rgb(214, 214, 214) 60%);
+    outline: chartreuse;
+    border-radius: 12px;
+    box-shadow: 0px 1px 10px 1px green;
+    cursor: pointer;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::after {
+    content: '101';
+    color: whitesmoke;
+    font-size: 2rem;
+    position: absolute;
+    left: 15%;
+    top: 14%;
+}
+
+.slider::before {
+    content: '0';
+    color: whitesmoke;
+    font-size: 2rem;
+    position: absolute;
+    left: 10%;
+    top: 62%;
+}
+
+p {
+    margin-top: 50px;
+    opacity: 0.7;
+}
